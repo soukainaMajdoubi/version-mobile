@@ -7,23 +7,23 @@
   "proxies": [
     {
       "path": "/tasks",
-      "proxyUrl": "http://localhost:3000/api/tasks"
+      "proxyUrl": "https://todo-list-p.herokuapp.com/api/tasks"
     },
     {
       "path": "/lists",
-      "proxyUrl": "http://localhost:3000/api/lists"
+      "proxyUrl": "https://todo-list-p.herokuapp.com/api/lists"
     },
     {
       "path": "/auth",
-      "proxyUrl": "http://localhost:3000/api/auth"
+      "proxyUrl": "https://todo-list-p.herokuapp.comapi/auth"
     },
     {
       "path": "/logout",
-      "proxyUrl": "http://localhost:3000/logout"
+      "proxyUrl": "https://todo-list-p.herokuapp.com/logout"
     },
     {
       "path": "/register",
-      "proxyUrl": "http://localhost:3000/api/users"
+      "proxyUrl": "https://todo-list-p.herokuapp.com/api/users"
     }
   ]
 }
