@@ -1,4 +1,4 @@
-// Ionic Starter App
+
 
 // Controllers
 const TodoCtrl = function(
