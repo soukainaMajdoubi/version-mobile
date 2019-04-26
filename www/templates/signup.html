@@ -1,0 +1,33 @@
+<ion-view view-title="Signup" name="signup-view" ng-controller="SignupCtrl">
+  <ion-header-bar>
+    <a
+      class="button icon-left ion-ios-arrow-back button-clear button-dark"
+      ng-click="back()"
+    >
+      &nbsp;Retour</a
+    >
+    <h1 class="title">Inscription</h1>
+  </ion-header-bar>
+  <ion-content class="padding">
+    <div class="list list-inset">
+      <label class="item item-input">
+        <input
+          type="text"
+          placeholder="Identifiant"
+          ng-model="user.username"
+        />
+      </label>
+      <label class="item item-input">
+        <input
+          type="password"
+          placeholder="Mot de passe"
+          ng-model="user.password"
+        />
+      </label>
+     
+    </div>
+    <button class="button button-block button-calm" ng-click="signup()">
+      S'inscrire
+    </button>
+  </ion-content>
+</ion-view>

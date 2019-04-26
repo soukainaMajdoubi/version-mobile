@@ -1,0 +1,29 @@
+{
+  "name": "awesome-todolist-mobile",
+  "integrations": {},
+  "type": "ionic1",
+  "watchPatterns": ["scss/**/*", "www/**/*", "!www/lib/**/*", "!www/**/*.map"],
+
+  "proxies": [
+    {
+      "path": "/tasks",
+      "proxyUrl": "http://localhost:3000/api/tasks"
+    },
+    {
+      "path": "/lists",
+      "proxyUrl": "http://localhost:3000/api/lists"
+    },
+    {
+      "path": "/auth",
+      "proxyUrl": "http://localhost:3000/api/auth"
+    },
+    {
+      "path": "/logout",
+      "proxyUrl": "http://localhost:3000/logout"
+    },
+    {
+      "path": "/register",
+      "proxyUrl": "http://localhost:3000/api/users"
+    }
+  ]
+}
